@@ -1,12 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pidoric", "Pidoric.csproj", "{C44FC7A0-C546-DFF6-8E80-FD05DBB4069A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pidoric.Plugins", "Pidoric.Plugins.csproj", "{02DE8795-D80D-EF90-1320-2308264AF1EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pidoric.Editor.Plugins", "Pidoric.Editor.Plugins.csproj", "{26F74BDB-0A73-4500-89C7-2102985F469F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C44FC7A0-C546-DFF6-8E80-FD05DBB4069A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44FC7A0-C546-DFF6-8E80-FD05DBB4069A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44FC7A0-C546-DFF6-8E80-FD05DBB4069A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44FC7A0-C546-DFF6-8E80-FD05DBB4069A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DE8795-D80D-EF90-1320-2308264AF1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DE8795-D80D-EF90-1320-2308264AF1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DE8795-D80D-EF90-1320-2308264AF1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DE8795-D80D-EF90-1320-2308264AF1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F74BDB-0A73-4500-89C7-2102985F469F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F74BDB-0A73-4500-89C7-2102985F469F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F74BDB-0A73-4500-89C7-2102985F469F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F74BDB-0A73-4500-89C7-2102985F469F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
