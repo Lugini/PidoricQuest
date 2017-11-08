@@ -23,7 +23,7 @@ public class LevelGenerator : MonoBehaviour
     void Start()
     {
         wid = startPointX * (-2);
-        colorAmount = Mathf.Min((difficulty) / 2 + 2);
+        colorAmount = Mathf.Min((difficulty) / 2 + 2, 4);
         ballsAmount = difficulty * 2 + 1;
         interval = wid / (colorAmount-1);
         positionX = startPointX;

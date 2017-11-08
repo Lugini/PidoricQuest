@@ -14,5 +14,6 @@ public class CollsionTrigger : MonoBehaviour {
             //Debug.Log(Vector3.Distance(coll.gameObject.transform.position, basket.transform.position));
             Destroy(coll.gameObject);
         }
+
     }
 }

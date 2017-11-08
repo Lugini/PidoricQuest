@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3a5aa511b1b27a46b46dd5de8f79041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  difficulty: 5
+  difficulty: 7
   maxColorsAmount: 4
   startPointX: -10
   Circle: {fileID: 1495715321972464, guid: edea17054e4196349bb36544a7cb3110, type: 2}

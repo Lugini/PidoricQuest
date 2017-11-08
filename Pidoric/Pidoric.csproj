@@ -84,6 +84,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Baskets\Scripts\CollsionTrigger.cs" />
+    <Compile Include="Assets\Baskets\Scripts\Dificulty_leve.cs" />
+    <Compile Include="Assets\Baskets\Scripts\LevelGenerator.cs" />
+    <Compile Include="Assets\Baskets\Scripts\MouseDrag.cs" />
+    <Compile Include="Assets\Runner\RunnerScripts\MovingScript.cs" />
+    <Compile Include="Assets\Runner\RunnerScripts\ObstacleCollisionDetection.cs" />
+    <Compile Include="Assets\Runner\RunnerScripts\RunnerDifficultyGennerator.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -92,10 +99,6 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-    <Compile Include="Assets\Scripts\CollsionTrigger.cs" />
-    <Compile Include="Assets\Scripts\Dificulty_leve.cs" />
-    <Compile Include="Assets\Scripts\LevelGenerator.cs" />
-    <Compile Include="Assets\Scripts\MouseDrag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
